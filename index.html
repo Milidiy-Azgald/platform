@@ -98,9 +98,9 @@
 
   function spawnPlatform() {
     const last = platforms[platforms.length - 1];
-    const x = last ? last.x + 120 + Math.random() * 80 : 300; // ближче одна до одної
+    const x = last ? last.x + 120 + Math.random() * 80 : 300;
     const y = 300 + Math.random() * 200;
-    const width = 180 + Math.random() * 60; // довші платформи
+    const width = 180 + Math.random() * 60;
     platforms.push({ x, y, width, height: 18 });
   }
 
